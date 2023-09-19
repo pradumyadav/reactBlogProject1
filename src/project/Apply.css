@@ -1,0 +1,416 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border:2px solid black ;
+    height: 60px;
+}
+a{
+    text-decoration: none;
+}
+
+.bollywood_Parent{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.technology_Parent{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.hollywood_Parent{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+.fitnessData{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.foodData{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.parentHome{
+    display: flex;
+}
+
+
+
+.call_1{
+  position: relative;
+  top: 140px;
+  left: 40px;
+    width: 600px;
+}
+
+h1{
+  
+    position: absolute;
+    left: 160px;
+    top: 135px;
+   
+  } 
+
+.childcompo{
+  
+   
+    border-bottom: 2px solid #ababab;
+    height: 180px;
+    width: 730px;
+    margin-bottom: 40px;
+    position: relative;
+
+    
+}
+
+.titlediv{
+    position: absolute;
+    left: 320px;
+   
+    font-weight: 700;
+}
+
+.p1{
+
+    width: 370px;
+    height: 30px;
+    position: absolute;
+    top: 40px;
+    left: 320px;
+    text-align:start;
+}
+
+
+.float{
+   position:relative;
+   left: 60%;
+   display: inline-block;
+   top: 40px;
+
+}
+
+.call_2{
+
+    position: relative;
+    top: 150px;
+    left: 65px;
+    width: 450px;
+}
+
+.right_title{
+    position: absolute;
+    left: 38%;
+}
+.right_description{
+   
+    width: 170px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+   left: 140px;
+   top: 50px;
+ 
+
+}
+.left_Div{
+    border-bottom:2px solid  #ababab;
+    width: 355px;
+}
+
+.top_Post{
+    position:absolute;
+    font-size: 32px;
+    font-weight: bold;
+    right:365px;
+    top: 136px;
+
+    
+}
+.latest_post2{
+   
+    font-size: 14px;
+    width:320px;
+    text-align:start;
+    font-weight: bold;
+
+}
+.advertisement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:2px solid black ;
+    margin-top: 100px;
+    width:335px;
+    height: 550px;
+}
+.count{
+    position:absolute;
+    color:  #ababab;
+    font-size: 40px;
+    top: -10px;
+    right: 0px;
+    margin-left: 5px;
+}
+.one{
+    display: inline-block;
+    color:  #ababab;
+    font-size: 40px;
+    position:absolute;
+    right: 120px;
+    top: 208px;
+
+}
+.des_Flex{
+    display: flex;
+}
+
+
+.HR{
+    position:relative;
+    top:118px;
+    left: 163px;
+    width: 80px;
+    height:4px;
+    background-color: red;
+    
+}
+.navlink{
+    text-decoration: none;
+    color: black;
+}
+.HR1{
+    position:relative;
+    top:118px;
+    left: 1030px;
+    width: 80px;
+    height:4px;
+    background-color: red;
+    
+}
+.home_Header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.home_Header2{
+    display: flex;
+    flex-direction: column;
+}
+.home_flex{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.the_Latest{
+
+    position:absolute;
+    bottom: 17px;
+    left:75px;
+    font-size: 23px;
+}
+
+.home_body{
+   
+    width: 350px;
+    margin-top: 160px;
+    
+   
+}
+.home_body_img{
+    height: 280px;
+}
+
+.home_Title{
+    
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  
+
+}
+.home_H2{
+    position: absolute;
+    bottom:-530px;
+    left: 120px;
+    font-size: 30px;
+    
+}
+.home_description{
+
+    text-align: center;
+}
+.home_flex2{
+    position: relative;
+    margin-top: 150px;
+    display: flex;
+    justify-content:space-around;
+
+}
+.home_top_post{
+    position: absolute;
+    font-size: 30px;
+    bottom:-540px;
+   right:300px;
+}
+.home_img{
+    
+    height: 170px;
+}
+/* styling for dynamic compo */
+
+
+.parent_Of_dynamic{
+  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.subparent_Of_dynamic{
+   
+}
+
+.title_for_dynamic{
+ margin-top: 30px;
+  width: 470px;
+  font-weight: 900;
+}
+.image_for_dynamic{
+width: 450px;
+
+}
+.description_for_dynamic{
+ 
+    width: 450px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.sticker_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sticker{
+   position: relative;
+   right: 120px;
+   font-size: 50px;
+   background-color:rgb(253, 149, 22) ;
+   border-radius: 50%;
+   margin: 20px 0px 20px 0px;
+}
+.name_surname-parent{
+    position: relative;
+   right: 120px;
+   font-size: 20px;
+   font-weight: 600;
+}
+.date{
+    font-size: 13px;
+    opacity: 0.5;
+    margin-left: 20px;
+}
+
+.footer_Parent{
+    border: 2px solid red;
+    /* height: 270px; */
+   
+}
+
+.footer_Child{
+    border: 2px solid black;
+    width: 165px;
+    height: 240px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:280px) and (max-width:580px){
+    .bollywood_Parent{
+        position: relative;
+        display: flex;
+       flex-direction: column;
+    }
+    .technology_Parent{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .hollywood_Parent{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .fitnessData{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .foodData{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+}
