@@ -43,7 +43,7 @@ import d6img from "../asset/icons8-thumb.gif"
                                  <span><img className="d4img"src={d4img} alt="Not Found"/></span>
                                  </div>
                                 <div><img className="image_for_dynamic"src= {item.dataImage} alt="Not Found"/> </div>  
-                                  <div className="description_for_dynamic"> {item. description}</div> 
+                                  <div className="description_for_dynamic"> {item.description}</div> 
                             </div>
                         )
                     })}
