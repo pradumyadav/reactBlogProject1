@@ -3,7 +3,8 @@ import {dataRoom} from "./Parentdata"
 
 
 import "./Apply.css"
-import { Link,NavLink } from "react-router-dom"
+import {NavLink } from "react-router-dom"
+import Footer from "./Footer"
 
 export default function Bollywood(){
 
@@ -12,33 +13,28 @@ export default function Bollywood(){
     return(
         <>
          <nav>
-                <Link to="/">Home</Link>
-                <Link to="/bollywood">Bollywood</Link>
-                <Link to="/hollywood">Hollywood</Link>
-                <Link to="/technology">Technology</Link>
-                <Link to="/fitness"> Fitness</Link>
-                <Link to="food"> Food</Link>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/bollywood">Bollywood</NavLink>
+                <NavLink to="/hollywood">Hollywood</NavLink>
+                <NavLink to="/technology">Technology</NavLink>
+                <NavLink to="/fitness"> Fitness</NavLink>
+                <NavLink to="/food"> Food</NavLink>
             </nav>
-            <h1>Bollywood</h1>
-            <hr className="HR"/>
-
-            <span className="top_Post">Top post </span>
-            <hr className="HR1"/>
-
 
         <div className="bollywood_Parent">
             <div className="call_1">
-                 {data_for_Bollywood.filter((item)=>item.ID >=1 && item.ID<=8)
+            <h1 className="top_h1">Bollywood  <hr className="hr"/></h1>
+           
+                 {data_for_Bollywood.filter((item)=>item.ID >=1 && item.ID<=9)
                  .map((item,index)=>{ 
                 return(
                 <div className="childcompo" key={index}>
                      <NavLink className="navlink" to={`/ContentDeatails/${item.ID}`} >
                      <div className="titlediv">{item.dataTitle.slice(0,30)}...</div>
-             <div  className="img">  <img src={item.dataImage} style={{width:"300px"}}></img></div> 
+            <img src={item.dataImage} alt="Not Found" style={{width:"300px",height:"170px"}}></img>
               <div className="p1">{item.description.slice(0,100)}..... </div>
                      </NavLink>
-                 
-                
+            
                  </div>
             
                 )
@@ -47,12 +43,15 @@ export default function Bollywood(){
             </div>
 
            <div  className="call_2">
+          
+            <h1 className="top_h1">Top Post <hr className="hr"/></h1>
            <div className="latest_post">
 
             {data_for_Bollywood.filter((item)=>item.ID ===8).map((item,index)=>{
                 return(
                     <div key={index}>
-                        <NavLink to={`/ContentDeatails/${item.ID}`}><div><img src={item.dataImage} style={{width:"330px",height:"210px"}}/></div>
+                        <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
+                            <div><img src={item.dataImage} alt="Not Found" style={{width:"360px",height:"210px"}}/></div>
                         <div className="latest_post2"> {item.dataTitle}...<div className="one">{index+1}</div></div>
                         </NavLink>
                     </div>
@@ -60,13 +59,13 @@ export default function Bollywood(){
             })}
            </div>
            
-            {data_for_Bollywood.filter((item)=>item.ID >8 && item.ID<=15).map((item,index)=>{ 
+            {data_for_Bollywood.filter((item)=>item.ID >9 && item.ID<=13).map((item,index)=>{ 
                 return(
                  <div className="left_Div" key={index}>
-                    <NavLink to={`/ContentDeatails/${item.ID}`}>
+                    <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
                     <div  className="right_description">{item.description.slice(0,29)}... <h1 className="count">{index+2}</h1></div>
                     
-                    <img  className="right_image" src={item. dataImage} style={{width:"130px",height:"80px"}}></img>
+                   <div className="right_image"> <img src={item.dataImage} alt="Not Found" style={{width:"130px",height:"70px"}}></img></div>
                     </NavLink>
                    
                  </div>
@@ -75,13 +74,16 @@ export default function Bollywood(){
                 }
             )}
               <div className="advertisement">
-                <div>
+               
                 Advertisement
-                </div>
+                
             </div>
 
             </div> 
         </div>
+        
+        <Footer/>
+       
         </>
     )
 }

@@ -3,79 +3,85 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.parent_The_Serin{
+    display:flex;
+    justify-content: center;
+    margin: 20px 0px 10px 0px;
+   
+   
+}
+.the{
+    transform: rotate(-90deg);
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 600;
+}
+.serin{
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: 800;
+}
 
 nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border:2px solid black ;
-    height: 60px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:rgb(49, 157, 193);
 }
 a{
     text-decoration: none;
 }
-
 .bollywood_Parent{
-    position: relative;
     display: flex;
     justify-content: space-around;
-    
 }
-.technology_Parent{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
 
-    
-}
 .hollywood_Parent{
-    position: relative;
     display: flex;
     justify-content: space-around;
-   
-   
+}
+
+.technology_Parent{
+    display: flex;
+    justify-content: space-around;
 }
 .fitnessData{
-    position: relative;
     display: flex;
     justify-content: space-around;
-    
-}
-.foodData{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-  
 }
 
-.parentHome{
+.foodData{
     display: flex;
+    justify-content: space-around;
 }
 
 
 
 .call_1{
-  position: relative;
-  top: 140px;
-  left: 40px;
-    width: 600px;
+    width: 650px;
 }
 
-h1{
-  
-    position: absolute;
-    left: 160px;
-    top: 135px;
-   
-  } 
+    .top_h1{
+        margin:60px 0px 50px 0px ;
+
+    }
+    .hr{
+        width: 75px;
+        height: 5px;
+        background-color: red;
+    }
 
 .childcompo{
   
    
     border-bottom: 2px solid #ababab;
-    height: 180px;
+    height: 175px;
     width: 730px;
-    margin-bottom: 40px;
+    margin-top: 10px;
     position: relative;
 
     
@@ -99,19 +105,10 @@ h1{
 }
 
 
-.float{
-   position:relative;
-   left: 60%;
-   display: inline-block;
-   top: 40px;
 
-}
 
 .call_2{
-
-    position: relative;
-    top: 150px;
-    left: 65px;
+      
     width: 450px;
 }
 
@@ -132,8 +129,11 @@ h1{
 }
 .left_Div{
     border-bottom:2px solid  #ababab;
-    width: 355px;
+    width: 430px;
+    height: 120px;
+   
 }
+
 
 .top_Post{
     position:absolute;
@@ -158,16 +158,18 @@ h1{
     align-items: center;
     text-align: center;
     border:2px solid black ;
-    margin-top: 100px;
+    margin-top: 10px;
     width:335px;
-    height: 550px;
+    height: 480px;
+    position: absolute;
+   
 }
 .count{
     position:absolute;
     color:  #ababab;
     font-size: 40px;
     top: -10px;
-    right: 0px;
+    right: -30px;
     margin-left: 5px;
 }
 .one{
@@ -175,37 +177,28 @@ h1{
     color:  #ababab;
     font-size: 40px;
     position:absolute;
-    right: 120px;
-    top: 208px;
+    right: 216px;
+    top: 540px;
 
+}
+.homeone{
+    display: inline-block;
+    color:  #ababab;
+    font-size: 40px;
+    position:absolute;
+    right: 180px;
 }
 .des_Flex{
     display: flex;
 }
 
 
-.HR{
-    position:relative;
-    top:118px;
-    left: 163px;
-    width: 80px;
-    height:4px;
-    background-color: red;
-    
-}
+
 .navlink{
     text-decoration: none;
     color: black;
 }
-.HR1{
-    position:relative;
-    top:118px;
-    left: 1030px;
-    width: 80px;
-    height:4px;
-    background-color: red;
-    
-}
+
 .home_Header{
     display: flex;
     justify-content: center;
@@ -223,7 +216,7 @@ h1{
 .the_Latest{
 
     position:absolute;
-    bottom: 17px;
+    bottom: -100px;
     left:75px;
     font-size: 23px;
 }
@@ -249,7 +242,8 @@ h1{
 }
 .home_H2{
     position: absolute;
-    bottom:-530px;
+    bottom:-670px; 
+
     left: 120px;
     font-size: 30px;
     
@@ -268,7 +262,7 @@ h1{
 .home_top_post{
     position: absolute;
     font-size: 30px;
-    bottom:-540px;
+    bottom:-670px;
    right:300px;
 }
 .home_img{
@@ -287,9 +281,7 @@ h1{
     text-align: center;
 
 }
-.subparent_Of_dynamic{
-   
-}
+
 
 .title_for_dynamic{
  margin-top: 30px;
@@ -318,7 +310,7 @@ width: 450px;
    font-size: 50px;
    background-color:rgb(253, 149, 22) ;
    border-radius: 50%;
-   margin: 20px 0px 20px 0px;
+   margin: 20px 0px 20px 100px;
 }
 .name_surname-parent{
     position: relative;
@@ -332,24 +324,69 @@ width: 450px;
     margin-left: 20px;
 }
 
-.footer_Parent{
-    border: 2px solid red;
-    /* height: 270px; */
+.dynamic_Related_Footer{
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-starts;
+    margin-top: 5%;
+}
+.dynamic_Subchild{
+    width: 380px;
    
 }
-
-.footer_Child{
-    border: 2px solid black;
-    width: 165px;
-    height: 240px;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items:center;
-    
+.title_for_dynamic2{
+    width: 300px;
+    font-weight: 700;
     
 }
+
+.dynamicSpan{
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.image_for_dynamic2{
+    width: 370px;
+    height: 230px;
+    border-radius: 15px;
+}
+.d1img{
+    width: 30px;
+}
+.d2img{
+    width: 30px;
+}
+.d3img{
+    width: 30px;
+}
+.d4img{
+    width: 25px;
+}
+.parent_Thumb_share{
+    border-bottom: 2px solid gray;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+}
+.back_button{
+    width: 20%;
+    height:25px;
+    font-size: 18px;
+    background-color:rgb(146, 46, 189);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.sticker_Bottom_Border{
+    border-bottom: 2px solid rgb(198, 195, 195);
+}
+
+
+    
+
+
+
 
 
 
@@ -412,5 +449,17 @@ width: 450px;
         position: relative;
         display: flex;
         flex-direction: column;
+    }
+    .dynamic_Related_Footer{
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:flex-start;
+        margin-top: 5%;
+    }
+    .advertisement{
+       display: none;
+
     }
 }

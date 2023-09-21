@@ -1,9 +1,10 @@
 import { useContext } from "react"
 
 import { dataRoom } from "./Parentdata"
-import {Link, NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 import "./Apply.css"
+import Footer from "./Footer"
 
 export default function Hollywood (){
     const [hollydata_from_dataRoom]=useContext(dataRoom)
@@ -12,31 +13,25 @@ export default function Hollywood (){
 
         <>
          <nav>
-                <Link to="/">Home</Link>
-                <Link to="/bollywood">Bollywood</Link>
-                <Link to="/hollywood">Hollywood</Link>
-                <Link to="/technology">Technology</Link>
-                <Link to="/fitness"> Fitness</Link>
-                <Link to="food"> Food</Link>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/bollywood">Bollywood</NavLink>
+                <NavLink to="/hollywood">Hollywood</NavLink>
+                <NavLink to="/technology">Technology</NavLink>
+                <NavLink to="/fitness"> Fitness</NavLink>
+                <NavLink to="/food"> Food</NavLink>
             </nav>
-       <h1 >Hollywood</h1>
-       <hr className="HR"/>
-        
-       <span className="top_Post">Top post </span>
-       <hr className="HR1"/>
-
        
-        
         <div className="hollywood_Parent">
             
             <div className="call_1">
+            <h1 className="top_h1">Hollywood <hr className="hr"/></h1>
             {hollydata_from_dataRoom.filter((item)=>item.ID >=16 && item.ID<=25)
             .map((item,index)=>{
                 return (
                 <div className="childcompo"key={index}>
-                    <NavLink to={`/ContentDeatails/${item.ID}`}>
+                    <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
                     <div className="titlediv">{item.dataTitle}...</div>
-                 <div className="img"><img src={item.dataImage} style={{width:"300px"}}/> </div>
+                 <div className="img"><img src={item.dataImage} alt="Not Found" style={{width:"300px",height:"170px"}}/> </div>
                     <div className="p1">{item.description.slice(0,130)}.....</div>  
                     </NavLink>
                      
@@ -47,13 +42,13 @@ export default function Hollywood (){
            
             
             <div className="call_2">
-            
+            <h1 className="top_h1">Top post <hr className="hr"/></h1>
             <div className="latest_post">
             {hollydata_from_dataRoom.filter((item)=>item.ID ==32).map((item,index)=>{
                 return(
                     <div key={index}>
-                        <NavLink to={`/ContentDeatails/${item.ID}`}>
-                        <div><img src={item.dataImage} style={{width:"330px",height:"210px"}}/></div>
+                        <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
+                        <div><img src={item.dataImage} alt="Not Found" style={{width:"360px",height:"210px"}}/></div>
                         <div className="latest_post2"> {item.dataTitle}...<div className="one">{index+1}</div></div>
                         </NavLink>
                         
@@ -62,13 +57,13 @@ export default function Hollywood (){
             })}
            </div>
 
-            {hollydata_from_dataRoom.filter((item)=>item.ID >25 &&item.ID<=31)
+            {hollydata_from_dataRoom.filter((item)=>item.ID >25 &&item.ID<=29)
             .map((item,index)=>{
                 return (
                 <div  className="left_Div" key={index}>
-                   <NavLink to={`/ContentDeatails/${item.ID}`}>
+                   <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
                    <div className="right_description">{item.description.slice(0,29)}...<h1 className="count">{index+2}</h1></div>
-                  <img className="right_image"src={item.dataImage} style={{width:"130px",height:"70px"}}/>
+                  <img className="right_image"src={item.dataImage} alt="Not Found" style={{width:"130px",height:"70px"}}/>
                    </NavLink>
                     
                 </div>
@@ -83,6 +78,7 @@ export default function Hollywood (){
             </div>
             
         </div>
+        <Footer/>
         </>
     )
 }
