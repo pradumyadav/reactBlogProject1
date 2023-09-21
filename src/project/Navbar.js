@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from "react-router-dom";
+import {Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Bollywood from "./Bollywood";
 import Hollywood from "./Hollywood";

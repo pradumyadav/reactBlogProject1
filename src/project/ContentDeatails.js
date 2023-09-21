@@ -19,8 +19,6 @@ import d6img from "../asset/icons8-thumb.gif"
                 const cat_of_useconte = data_Fro_ContentDeatails[ID].Type ;
                 console.log(cat_of_useconte)
                
-              
-            
             return(
 
                 <div>
@@ -39,12 +37,12 @@ import d6img from "../asset/icons8-thumb.gif"
                                  <div className="name">Pradum Yadav</div>    
                                  <div className="date">Sep 18,2023 .15 min read </div>
                                  </div>
-                                 <span><img className="d1img"src={d1img}/></span>
-                                 <span><img className="d2img"src={d2img}/></span>
-                                 <span><img className="d3img"src={d3img}/></span>
-                                 <span><img className="d4img"src={d4img}/></span>
+                                 <span><img className="d1img"src={d1img} alt="Not Found"/></span>
+                                 <span><img className="d2img"src={d2img} alt="Not Found"/></span>
+                                 <span><img className="d3img"src={d3img} alt="Not Found"/></span>
+                                 <span><img className="d4img"src={d4img} alt="Not Found"/></span>
                                  </div>
-                                <div><img className="image_for_dynamic"src= {item.dataImage}/> </div>  
+                                <div><img className="image_for_dynamic"src= {item.dataImage} alt="Not Found"/> </div>  
                                   <div className="description_for_dynamic"> {item. description}</div> 
                             </div>
                         )
@@ -52,8 +50,8 @@ import d6img from "../asset/icons8-thumb.gif"
 
 
                     <div className="parent_Thumb_share">
-                  <div><img src={d6img}/></div>
-                    <div><img src={d5img}/></div>
+                  <div><img src={d6img} alt="Not Found"/></div>
+                    <div><img src={d5img} alt="Not Found"/></div>
                     </div>
                     <div className="sticker_Bottom_Border">
                     <div className="sticker_parent">
@@ -78,12 +76,9 @@ import d6img from "../asset/icons8-thumb.gif"
                            return(
                                <div className="dynamic_Subchild" key={index}>
                                  
-                                   <div><img className="image_for_dynamic2"src= {item.dataImage}/> </div>  
-                                    <div className="title_for_dynamic2">{item.dataTitle .slice(0,100)}...</div>
+                                   <div><img className="image_for_dynamic2"src= {item.dataImage} alt="Not Found"/> </div>  
+                                    <div className="title_for_dynamic2">{item.dataTitle.slice(0,100)}...</div>
                                  
-                                   
-
-                                    
                                     <div className="sticker_parent">
                                  <div className="sticker">🏋️‍♂️</div>
                                  <div className="name_surname-parent">

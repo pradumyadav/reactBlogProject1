@@ -53,8 +53,8 @@ export default function Footer (){
                 </div>
 
                 <div className="footer_Child3">
-                   <div className="number"> <div><img className="Img5"src={img5}/></div><div>:-9004445608</div></div>
-                    <div className="maill"><img   className="Img6"src={img6}/><div>:-pradumyadav020@..</div></div>
+                   <div className="number"> <div><img className="Img5" src={img5} alt="Not Found"/></div><div>:-9004445608</div></div>
+                    <div className="maill"><img   className="Img6" src={img6} alt="Not Found"/><div>:-pradumyadav020@..</div></div>
                     
                 </div>
                 

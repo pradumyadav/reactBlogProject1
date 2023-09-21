@@ -264,8 +264,7 @@ export default function Parentdata (props){
         dataTitle:"Types of Military Drones: Best Technology Available Today",
         description:"The military has been using drones for decades. These drones have been used to spy on enemies, deliver supplies, and even carry bombs. You may have seen them in the news or at an air show, but do you know what they really are and how they work? If not, we’re here to help by answering all your questions about military drones and their technology.",
         dataImage:"https://www.dronetechplanet.com/wp-content/uploads/2019/02/Webp.net-resizeimage-8-768x485.jpg?ezimgfmt=ng:webp/ngcb4",
-        moviTitle:"Indian made drone",
-        dataImage:"https://www.thedefensepost.com/wp-content/uploads/2022/07/FWkKSDuakAEAis_.jpg"
+        moviTitle:"Indian made drone"
     },
     
     {

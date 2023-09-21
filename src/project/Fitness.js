@@ -27,7 +27,7 @@ export default function Fitness(){
                     <div className="childcompo" key={index}>
                        <NavLink className="navlink" to={`/ContentDeatails/${item.ID}`}> <div className="titlediv">{item.dataTitle}...</div>
                          <div className="img"> <img src={item.dataImage}  alt="Not Found" style={{width:"300px",height:"170px"}}/></div>
-                         <div className="p1">{item. description.slice(0,130)}.....</div>
+                         <div className="p1">{item.description.slice(0,130)}.....</div>
                          </NavLink>
                     </div>
                 )

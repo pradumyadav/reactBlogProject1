@@ -44,7 +44,7 @@ export default function Hollywood (){
             <div className="call_2">
             <h1 className="top_h1">Top post <hr className="hr"/></h1>
             <div className="latest_post">
-            {hollydata_from_dataRoom.filter((item)=>item.ID ==32).map((item,index)=>{
+            {hollydata_from_dataRoom.filter((item)=>item.ID ===32).map((item,index)=>{
                 return(
                     <div key={index}>
                         <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
