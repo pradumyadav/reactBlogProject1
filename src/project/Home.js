@@ -66,9 +66,9 @@ export default function Home(){
                 return (
                 <div className="childcompo"key={index}>
                     <NavLink className="navlink" to={`/ContentDeatails/${item.ID}`}>
-                    <div className="titlediv">{item.dataTitle.slice(0,40)}...</div>
+                    <div className="titlediv">{item.dataTitle.slice(0,15)}...</div>
                  <div><img alt="Not Found" src={item.dataImage} className="all_Left_Image"/> </div>
-                    <div className="p1">{item.description.slice(0,130)}.....</div>  
+                    <div className="p1">{item.description.slice(0,80)}.....</div>  
                     </NavLink>
                      
                 </div>
