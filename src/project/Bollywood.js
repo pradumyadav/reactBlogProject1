@@ -30,9 +30,9 @@ export default function Bollywood(){
                 return(
                 <div className="childcompo" key={index}>
                      <NavLink className="navlink" to={`/ContentDeatails/${item.ID}`} >
-                     <div className="titlediv">{item.dataTitle.slice(0,30)}...</div>
-            <img src={item.dataImage} alt="Not Found" style={{width:"300px",height:"170px"}}></img>
-              <div className="p1">{item.description.slice(0,100)}..... </div>
+                     <div className="titlediv">{item.dataTitle.slice(0,15)}...</div>
+            <img src={item.dataImage} alt="Not Found" className="all_Left_Image"></img>
+              <div className="p1">{item.description.slice(0,50)}..... </div>
                      </NavLink>
             
                  </div>
@@ -51,8 +51,8 @@ export default function Bollywood(){
                 return(
                     <div key={index}>
                         <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
-                            <div><img src={item.dataImage} alt="Not Found" style={{width:"360px",height:"210px"}}/></div>
-                        <div className="latest_post2"> {item.dataTitle}...<div className="one">{index+1}</div></div>
+                            <div><img src={item.dataImage} alt="Not Found" className="all_Top_Post_Images"/></div>
+                        <div className="latest_post2"> {item.dataTitle}...</div>
                         </NavLink>
                     </div>
                 )
@@ -63,9 +63,9 @@ export default function Bollywood(){
                 return(
                  <div className="left_Div" key={index}>
                     <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
-                    <div  className="right_description">{item.description.slice(0,29)}... <h1 className="count">{index+2}</h1></div>
+                    <div  className="right_description">{item.description.slice(0,15)}.. <h1 className="count">{index+2}</h1></div>
                     
-                   <div className="right_image"> <img src={item.dataImage} alt="Not Found" style={{width:"130px",height:"70px"}}></img></div>
+                   <img src={item.dataImage} alt="Not Found" className="image_for_BollyCompo"/>
                     </NavLink>
                    
                  </div>

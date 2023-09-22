@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
-import img1 from "../asset/instagramimage2.jpg";
-import img2 from "../asset/twitterimage.jpg" ;
-import img3 from "../asset/whatssapimage.jpg";
-import img4 from "../asset/youtubeimage.jpg";
+import img1 from "../asset/icons8-instagram-48 (1).png"
+import img2 from "../asset/icons8-facebook-48 (1).png" ;
+import img3 from "../asset/icons8-twitter-48 (1).png";
+import img4 from "../asset/icons8-whatsapp-48.png";
 import img5 from "../asset/mobilecon.png";
 import img6 from "../asset/maillicon (1).png"
 import "./Footer.css"
@@ -54,7 +54,7 @@ export default function Footer (){
 
                 <div className="footer_Child3">
                    <div className="number"> <div><img className="Img5" src={img5} alt="Not Found"/></div><div>:-9004445608</div></div>
-                    <div className="maill"><img   className="Img6" src={img6} alt="Not Found"/><div>:-pradumyadav020@..</div></div>
+                    <div className="maill"><img   className="Img6" src={img6} alt="Not Found"/><span>: pradumyadav020@..</span></div>
                     
                 </div>
                 

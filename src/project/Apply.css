@@ -10,6 +10,7 @@
    
    
 }
+
 .the{
     transform: rotate(-90deg);
     font-size: 25px;
@@ -36,37 +37,62 @@ a{
     text-decoration: none;
 }
 .bollywood_Parent{
+    border:4px solid black ;
+    
     display: flex;
     justify-content: space-around;
 }
 
 .hollywood_Parent{
+    border:4px solid black ;
+    
     display: flex;
     justify-content: space-around;
 }
 
 .technology_Parent{
+    border:4px solid black ;
+    
     display: flex;
     justify-content: space-around;
 }
 .fitnessData{
+    border:4px solid black ;
+    
     display: flex;
     justify-content: space-around;
 }
 
 .foodData{
+    border:4px solid black ;
+    
     display: flex;
     justify-content: space-around;
 }
 
+.all_Left_Image{
+    width:300px;
+    height:170px
+}
+.all_Top_Post_Images{
+    width:360px;
+    height:210px
+}
 
-
+.right_image{
+    width:130px;
+}
+.image_for_BollyCompo{
+    width:130px;
+    height:80px
+}
 .call_1{
+    border: 3px solid red;
     width: 650px;
 }
 
     .top_h1{
-        margin:60px 0px 50px 0px ;
+        margin:10px 0px 40px 0px ;
 
     }
     .hr{
@@ -76,7 +102,7 @@ a{
     }
 
 .childcompo{
-  
+
    
     border-bottom: 2px solid #ababab;
     height: 175px;
@@ -96,7 +122,7 @@ a{
 
 .p1{
 
-    width: 370px;
+    width: 330px;
     height: 30px;
     position: absolute;
     top: 40px;
@@ -108,7 +134,8 @@ a{
 
 
 .call_2{
-      
+    border:2px solid green ;
+    
     width: 450px;
 }
 
@@ -117,7 +144,7 @@ a{
     left: 38%;
 }
 .right_description{
-   
+    
     width: 170px;
     font-size: 14px;
     font-weight: bold;
@@ -200,6 +227,7 @@ a{
 }
 
 .home_Header{
+    
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -209,7 +237,9 @@ a{
     flex-direction: column;
 }
 .home_flex{
+    border: 3px solid red;
     display: flex;
+   
     justify-content:space-around;
     
 }
@@ -222,14 +252,30 @@ a{
 }
 
 .home_body{
-   
     width: 350px;
     margin-top: 160px;
-    
-   
+}
+.home_img1{
+    width:800px;
+    height:460px;
+    margin-right:65px;
+    border-radius:20px
+}
+.home_img2{
+    width:350px;
+    height:220px;
+    margin-bottom:20px;
+    border-radius:20px
+}
+.home_img3{
+    width:350px;
+    height:220px;
+    border-radius:20px
 }
 .home_body_img{
     height: 280px;
+    width:370px;
+    border-radius:15px
 }
 
 .home_Title{
@@ -253,6 +299,7 @@ a{
     text-align: center;
 }
 .home_flex2{
+    border: 3px solid orange;
     position: relative;
     margin-top: 150px;
     display: flex;
@@ -265,46 +312,56 @@ a{
     bottom:-670px;
    right:300px;
 }
-.home_img{
-    
-    height: 170px;
-}
+
 /* styling for dynamic compo */
 
 
 .parent_Of_dynamic{
-  
-    
+  border: 4px solid black;
+   
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 
 }
+.subparent_Of_dynamic1{
+    border: 4px solid red ;
+    width: 496px
+}
+.subparent_Of_dynamic2{
+    border:3px solid purple;
+}
+
 
 
 .title_for_dynamic{
+    border:2px solid black;
  margin-top: 30px;
   width: 470px;
   font-weight: 900;
 }
 .image_for_dynamic{
+    border:2px solid black;
 width: 450px;
 
 }
 .description_for_dynamic{
- 
+    border:2px solid black;
+   
     width: 450px;
     font-weight: 600;
     margin-left: 10px;
 }
 .sticker_parent{
+    border:2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 .sticker{
+    border:2px solid black;
    position: relative;
    right: 120px;
    font-size: 50px;
@@ -313,6 +370,7 @@ width: 450px;
    margin: 20px 0px 20px 100px;
 }
 .name_surname-parent{
+   
     position: relative;
    right: 120px;
    font-size: 20px;
@@ -325,13 +383,14 @@ width: 450px;
 }
 
 .dynamic_Related_Footer{
-   
+    border: 4px solid green;
     display: flex;
     justify-content: space-evenly;
     align-items:flex-starts;
     margin-top: 5%;
 }
 .dynamic_Subchild{
+    border:2px solid black;
     width: 380px;
    
 }
@@ -364,11 +423,13 @@ width: 450px;
     width: 25px;
 }
 .parent_Thumb_share{
+    border:2px solid black;
     border-bottom: 2px solid gray;
     margin: 20px 0px 20px 0px;
     display: flex;
     justify-content: space-between;
     opacity: 0.5;
+   
 }
 .back_button{
     width: 20%;
@@ -383,7 +444,6 @@ width: 450px;
 }
 
 
-    
 
 
 
@@ -397,58 +457,40 @@ width: 450px;
 
 
 
+@media screen and (max-width:580px){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width:280px) and (max-width:580px){
+    nav{
+        display: none;
+    }
     .bollywood_Parent{
-        position: relative;
+      align-items: center;
         display: flex;
+     
        flex-direction: column;
     }
     .technology_Parent{
-        position: relative;
+        align-items: center;
+        
         display: flex;
         flex-direction: column;
     }
     .hollywood_Parent{
-        position: relative;
+        align-items: center;
         display: flex;
-        flex-direction: column;
+     
+       flex-direction: column;
     }
     .fitnessData{
-        position: relative;
+        align-items: center;
         display: flex;
-        flex-direction: column;
+     
+       flex-direction: column;
     }
     .foodData{
-        position: relative;
+        align-items: center;
         display: flex;
-        flex-direction: column;
+     
+       flex-direction: column;
     }
     .dynamic_Related_Footer{
    
@@ -462,12 +504,554 @@ width: 450px;
        display: none;
 
     }
+    .left_Div{
+        border-bottom:2px solid  #ababab;
+        width: 290px;
+        height: 120px;
+       
+    }
+    .childcompo{
+        overflow: hidden;
+        border:2px solid orange;
+        border-bottom: 2px solid #ababab;
+        height: 165px;
+        width: 325px;
+        margin-top: 10px;
+        position: relative;    
+    }
+    .titlediv{
+        position: absolute;
+        left: 190px;
+        width:140px;
+        font-weight: 700;
+    }
+    
+    .p1{
+    
+        width: 130px;
+        height: 30px;
+        position: absolute;
+        top: 40px;
+        left: 190px;
+        text-align:start;
+    }
+    .right_description{
+        width: 130px;
+        font-size: 14px;
+        font-weight: bold;
+        position: relative;
+       left: 140px;
+       top: 50px;
+    }
+    .all_Left_Image{
+        width:170px;
+        height:140px
+    }
+    .all_Top_Post_Images{
+        width:295px;
+        height:280px;
+        border-radius: 10px;
+        
+    }
     .call_1{
-        width: 650px;
+   
+        width: 330px;
     }
 
     .call_2{
-      
-        width: 450px;
+            
+        width: 300px;
     }
+
+    /* media query for home.js */
+    .home_flex2{
+        border: 3px solid orange;
+      
+        position: relative;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+    
+    }
+    .home_img1{
+        
+        width:300px;
+        height:220px;
+        margin-right:0px;
+        margin-bottom:15px;
+        border-radius:20px
+    }
+    .home_img2{
+        width:300px;
+        height:220px;
+        margin-bottom:20px;
+        border-radius:20px
+    }
+    .home_img3{
+        width:300px;
+        height:220px;
+        border-radius:20px
+    }
+
+    .home_Header{
+        border: 3px solid green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+         align-items: center;
+        margin-top: 50px;
+    }
+    .home_Header2{
+        display: flex;
+        flex-direction: column;
+    }
+    .home_flex{
+         
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      
+       
+        
+    }
+    .home_body{
+        border: 2px solid black;
+        width: 350px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .home_body_img{
+        width:330px;
+        height:230px;
+        border-radius:15px ;
+    }
+    .home_Title {
+        width: 270px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .home_description {
+        width: 270px;
+        text-align: center;
+    }
+
+    /* media query for dynamic Component */
+
+    .sticker_parent{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .sticker{
+      
+        position: relative;
+        right: 100px;
+        font-size: 50px;
+        background-color:rgb(253, 149, 22) ;
+        border-radius: 50%;
+        margin: 20px 0px 20px 100px;
+     }
+
+     .name_surname-parent{
+       
+        position: relative;
+       right: 100px;
+       font-size: 15px;
+       font-weight: 600;
+    }
+    .subparent_Of_dynamic1{
+      
+        width: 496px;
+    }
+    
+
+    .image_for_dynamic{
+        width: 380px;
+        
+        }
+        .description_for_dynamic{
+            width: 380px;
+        }
+        .title_for_dynamic{
+            margin-top: 30px;
+             width: 390px;
+             font-weight: 900;
+           }
+           .dynamic_Related_Footer{
+          
+            display: flex;
+            justify-content: space-evenly;
+            align-items:flex-starts;
+            align-items: center;
+            margin-top: 5%;
+        }
+        .title_for_dynamic2{
+          
+            width: 300px;
+            font-weight: 700;
+            text-align: center;
+            position: relative;
+            left: 35px;
+            
+        }
+        .image_for_dynamic2{
+            width: 380px;
+            height: 230px;
+            border-radius: 15px;
+        }
+        
+        /* .one{
+            display: inline-block;
+            color:  #ababab;
+            font-size: 40px;
+            position:absolute;
+            right: 26px;
+            top: 2350px;
+        
+        } */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query for Tab view */
+
+@media screen and (min-width:581px) and (max-width:768px){
+
+    nav{
+        display: none;
+    }
+    .bollywood_Parent{
+      /* align-items: center; */
+        display: flex;
+        justify-content: space-around;
+     
+       /* flex-direction: column; */
+    }
+    .technology_Parent{
+        display: flex;
+        justify-content: space-around;
+    }
+    .hollywood_Parent{
+        display: flex;
+        justify-content: space-around;
+    }
+    .fitnessData{
+        display: flex;
+        justify-content: space-around;
+    }
+    .foodData{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .advertisement{
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border:2px solid black ;
+            margin-top: 10px;
+            width:255px;
+            height: 500px;
+            position: absolute;
+           
+        
+
+    }
+    .left_Div{
+        border-bottom:2px solid  #ababab;
+        width: 255px;
+        height: 100px;
+       
+    }
+    .childcompo{
+        overflow: hidden;
+        border:2px solid orange;
+        border-bottom: 2px solid #ababab;
+        height: 170px;
+        width: 290px;
+        margin-top: 10px;
+        position: relative;    
+    }
+    .titlediv{
+        position: absolute;
+        left: 170px;
+        width:120px;
+        font-weight: 700;
+    }
+    
+    .p1{
+    
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        top: 50px;
+        left: 170px;
+        text-align:start;
+    }
+    .right_description{
+        width: 120px;
+        font-size: 14px;
+        font-weight: bold;
+        position: relative;
+       left: 120px;
+       top: 50px;
+    }
+    .all_Left_Image{
+        width:160px;
+        height:150px
+    }
+    .all_Top_Post_Images{
+        width:255px;
+        height:210px;
+        border-radius: 10px;
+        
+    }
+    .call_1{
+   
+        width: 300px;
+    }
+
+    .call_2{
+            
+        width: 260px;
+    }
+    .latest_post2{
+   
+        font-size: 14px;
+        width:290px;
+        text-align:start;
+        font-weight: bold;
+    
+    }
+    .image_for_BollyCompo{
+        width:110px;
+        height:70px
+    }
+    .right_image{
+        width:110px;
+        
+    }
+    .count{
+        position:absolute;
+        color:  #ababab;
+        font-size: 40px;
+        top: -10px;
+        right: -15px;
+        margin-left: 5px;
+    }
+
+    /* media query for home.js */
+    .home_flex2{
+        border: 3px solid orange;
+      
+        position: relative;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+    
+    }
+    .home_img1{
+        
+        width:300px;
+        height:220px;
+        margin-right:0px;
+        margin-bottom:15px;
+        border-radius:20px
+    }
+    .home_img2{
+        width:300px;
+        height:220px;
+        margin-bottom:20px;
+        border-radius:20px
+    }
+    .home_img3{
+        width:300px;
+        height:220px;
+        border-radius:20px
+    }
+
+    .home_Header{
+        border: 3px solid green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+         align-items: center;
+        margin-top: 50px;
+    }
+    .home_Header2{
+        display: flex;
+        flex-direction: column;
+    }
+    .home_flex{
+         
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      
+       
+        
+    }
+    .home_body{
+        border: 2px solid black;
+        width: 350px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .home_body_img{
+        width:330px;
+        height:230px;
+        border-radius:15px ;
+    }
+    .home_Title {
+        width: 270px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .home_description {
+        width: 270px;
+        text-align: center;
+    }
+
+    /* media query for dynamic Component */
+
+    .dynamic_Subchild{
+        border: 2px solid black;
+        width: 240px;
+       
+    }
+
+
+    .dynamic_Related_Footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items:flex-start;
+        margin-top: 5%;
+    }
+    .sticker_parent{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .sticker{
+      
+        position: relative;
+        right: 100px;
+        font-size: 50px;
+        background-color:rgb(253, 149, 22) ;
+        border-radius: 50%;
+        margin: 20px 0px 20px 100px;
+     }
+
+     .name_surname-parent{
+        border:2px solid black ;
+        position: relative;
+       
+        width: 150px;
+       right: 100px;
+       font-size: 15px;
+       font-weight: 600;
+    }
+    .subparent_Of_dynamic1{
+      
+        width: 496px;
+    }
+    
+
+    .image_for_dynamic{
+        width: 380px;
+        
+        }
+        .description_for_dynamic{
+            width: 380px;
+        }
+        .title_for_dynamic{
+            margin-top: 30px;
+             width: 390px;
+             font-weight: 900;
+           }
+           .dynamic_Related_Footer{
+          
+            display: flex;
+            justify-content: space-evenly;
+            align-items:flex-starts;
+            align-items: center;
+           
+            margin-top: 5%;
+        }
+        .title_for_dynamic2{
+          
+            width: 200px;
+            font-weight: 700;
+            text-align: center;
+            position: relative;
+            left: 35px;
+            
+        }
+        .image_for_dynamic2{
+            width: 230px;
+            height: 230px;
+            border-radius: 15px;
+        }
+        
+        .one{
+            display: inline-block;
+            color:  #ababab;
+            font-size: 40px;
+            position:absolute;
+            right: 26px;
+            top: 2350px;
+        
+        }
+
+
 }

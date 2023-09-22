@@ -23,10 +23,10 @@ export default function Home(){
                 return(
                     <div className="home_Header"key={index}>
                 
-                     <img src={item.dataImage1} alt="Not Found" style={{width:"800px",height:"460px",marginRight:"65px",borderRadius:"20px"}}/>
+                     <img src={item.dataImage1} alt="Not Found" className="home_img1"/>
                          <div className="home_Header2">
-                       <img src={item.dataImage2} alt="Not Found" style={{width:"350px",height:"220px",marginBottom:"20px",borderRadius:"20px"}}/>
-                       <img src={item.dataImage3} alt="Not Found" style={{width:"350px",height:"220px",borderRadius:"20px"}}/>
+                       <img src={item.dataImage2} alt="Not Found" className="home_img2"/>
+                       <img src={item.dataImage3} alt="Not Found" className="home_img3"/>
                      
                        </div>
                      
@@ -36,7 +36,7 @@ export default function Home(){
             
             </div>
                 
-            <div className="the_Latest"><h2>The Latest   <hr className="hr"/></h2></div>
+            {/* <div className="the_Latest"><h2>The Latest   <hr className="hr"/></h2></div> */}
             
             {/* Section 2 */}
            <div className="home_flex">
@@ -45,7 +45,7 @@ export default function Home(){
                 return(
                    <div className="home_body"key={index}>
                      <NavLink className="navlink" to={`/ContentDeatails/${item.ID}`}>
-                     <div>  <img className="home_body_img"src={item.dataImage} alt="Not Found" style={{width:"370px",borderRadius:"15px"}}/></div>
+                     <div>  <img className="home_body_img"src={item.dataImage} alt="Not Found"/></div>
                     <div className="home_Title ">{item.dataTitle.slice(0,50)}...</div>
                         <div className="home_description">{item.description.slice(0,150)}.....</div>
                      </NavLink>
@@ -56,8 +56,8 @@ export default function Home(){
 
                </div> 
 
-                <h2 className="home_H2">Top Stories  <hr className="hr"/></h2>
-                <h2 className="home_top_post">Top Post  <hr className="hr"/></h2>
+              {/*   <h2 className="home_H2">Top Stories  <hr className="hr"/></h2> */}
+               
 
                <div className="home_flex2">
                 <div>
@@ -67,7 +67,7 @@ export default function Home(){
                 <div className="childcompo"key={index}>
                     <NavLink className="navlink" to={`/ContentDeatails/${item.ID}`}>
                     <div className="titlediv">{item.dataTitle.slice(0,40)}...</div>
-                 <div><img className="home_img" alt="Not Found" src={item.dataImage} style={{width:"300px"}}/> </div>
+                 <div><img alt="Not Found" src={item.dataImage} className="all_Left_Image"/> </div>
                     <div className="p1">{item.description.slice(0,130)}.....</div>  
                     </NavLink>
                      
@@ -79,6 +79,7 @@ export default function Home(){
                 <div>
                    
                 <div className="latest_post">
+                {/* <h2 className="home_top_post">Top Post  <hr className="hr"/></h2> */}
             {homedata_from_roomData.filter((item)=>item.ID ===29).map((item,index)=>{
                 return(
                     <div key={index}>

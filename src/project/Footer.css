@@ -1,7 +1,7 @@
 .footer_Parent{
     display: flex;
     height: 140px;
-    width:100vw;
+   
     justify-content:space-around;
     background-color:rgb(49, 157, 193);
 }
@@ -44,17 +44,18 @@
 .Img1{
     width:44px;
     border-radius: 50%;
+    
 }
 .imgdiv{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
-.imgdiv:hover{
+/* .imgdiv:hover{
     background-color: darkgrey;
-    width:50px;
-    height: 50px;
+    width:30px;
+    height: 30px;
     border-radius: 50%;
-}
+} */
 .Img2{
     width:39px;
     border-radius: 50%;
@@ -88,17 +89,126 @@
     font-weight: 600;
 }
 
+@media screen and (max-width:580px){
 
-
-
-
-
-@media screen and (min-width:280px) and (max-width:580px){
     .footer_Parent{
         display: flex;
-        height: 140px;
-        width:100vw;
-        justify-content:space-around;flex-direction: column;
+        height: 550px;
+        justify-content:space-around;
+        flex-direction: column;
+        align-items: center;
         background-color:rgb(49, 157, 193);
     }
+    .footer_Child3{
+        width: 195px;
+    }
+    .footer_Child1{
+        width: 180px;
+    }
+    .footer_Child2{
+        width: 300px;
+    }
+    
+.footer_Child4{
+    width: 300px;
+}
+    
+}
+@media screen and (min-width:581px) and (max-width:768px){
+
+    .footer_Parent{
+        display: flex;
+        height: 180px;
+        justify-content:space-around;
+       
+        align-items: center;
+        background-color:rgb(49, 157, 193);
+    }
+    .footer_Child3{
+        width: 195px;
+    }
+    .footer_Child1{
+        width: 180px;
+    }
+    .footer_Child2{
+        width: 300px;
+    }
+    
+.footer_Child4{
+    width: 300px;
+}
+
+.footer_Child1{
+    border: 2px solid black;
+    width: 180px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_Child2{
+    border: 2px solid black;
+    width: 200px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+   
+}
+
+.footer_Child3{
+    border: 2px solid black;
+    width: 195px;
+    height: 130px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    flex-direction: column ;
+}
+
+.footer_Child4{
+    border: 2px solid black;
+    width: 250px;
+    height: 130px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-between;
+    align-items:center; 
+    
+}
+.footer_company{
+    font-size: 18px;
+   
+}
+.Img1{
+    width:38px;
+    border-radius: 50%;
+    margin: auto;
+}
+.Img2{
+    width:36px;
+    border-radius: 50%;
+    
+}
+.Img3{
+    width:36px;
+    border-radius: 50%;
+}
+.Img4{
+    width:36px;
+    border-radius: 50%;
+}
+.Img5{
+    width:40px;
+}
+
+.Img6{
+    width:25px;
+    height: 20px;
+}
+
+
+
+
+
 }

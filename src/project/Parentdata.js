@@ -339,7 +339,7 @@ export default function Parentdata (props){
         Type:"Technology",
         dataTitle:"Superior Strength and Plasticity – A New Treatment for Steel Alloys",
         dataImage:"https://scitechdaily.com/images/Steel-Pipes-777x518.jpg?ezimgfmt=ngcb2/notWebP",
-        description:"A new treatment tested on a high-quality steel alloy results in remarkable strength and flexibility, qualities often seen as a trade-off rather than a combination. Ultra-fine metal grains that the treatment produced in the outermost layer of steel appear to stretch, rotate and then elongate under strain, conferring super-plasticity in a way that Purdue University researchers cannot fully explain.",
+        description:"A treatment tested on a high-quality steel alloy results in remarkable strength and flexibility, qualities often seen as a trade-off rather than a combination. Ultra-fine metal grains that the treatment produced in the outermost layer of steel appear to stretch, rotate and then elongate under strain, conferring super-plasticity in a way that Purdue University researchers cannot fully explain.",
     },
     {
         ID:45,
@@ -360,7 +360,7 @@ export default function Parentdata (props){
         Type:"Technology",
         dataTitle:"Triboelectric Nanogenerator – New Technology Successfully Harvests Electricity From Raindrops",
         dataImage:"https://scitechdaily.com/images/Graphic-Showing-Solar-Panel-Like-D-TENGs.jpg?ezimgfmt=ng%3Awebp%2Fngcb2%2Frs%3Adevice%2Frscb2-1",
-        description:"When droplets of rain descend from the clouds, they generate a small amount of energy that can be captured and converted into electricity. This process can be seen as a miniaturized form of hydropower, which employs the kinetic force of moving water to generate electricity. Several researchers have suggested that the energy gathered from falling rain could serve as a viable source of sustainable, clean energy. However, expanding this technology on a broader scale has proven challenging, thereby limiting its practical utilization.",
+        description:"When droplets f rain descend from the clouds, they generate a small amount of energy that can be captured and converted into electricity. This process can be seen as a miniaturized form of hydropower, which employs the kinetic force of moving water to generate electricity. Several researchers have suggested that the energy gathered from falling rain could serve as a viable source of sustainable, clean energy. However, expanding this technology on a broader scale has proven challenging, thereby limiting its practical utilization.",
     },
     {
         ID:48,

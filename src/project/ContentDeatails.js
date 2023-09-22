@@ -25,17 +25,17 @@ import d6img from "../asset/icons8-thumb.gif"
 
                 <div className="parent_Of_dynamic">
 
-                    <div className="subparent_Of_dynamic">
+                    <div className="subparent_Of_dynamic1">
                     {data_Fro_ContentDeatails.filter((item)=>item.ID===parseInt(ID))
                     .map((item,index)=>{
                         return(
-                            <div key={index}>
+                            <div  className="subparent_Of_dynamic2" key={index}>
                                  <div className="title_for_dynamic">{item.dataTitle}</div>
                                  <div className="sticker_parent">
                                  <div className="sticker">🏋️‍♂️</div>
                                  <div className="name_surname-parent">
                                  <div className="name">Pradum Yadav</div>    
-                                 <div className="date">Sep 18,2023 .15 min read </div>
+                                 <div className="date">Sep 18,2023  </div>
                                  </div>
                                  <span><img className="d1img"src={d1img} alt="Not Found"/></span>
                                  <span><img className="d2img"src={d2img} alt="Not Found"/></span>
@@ -58,7 +58,7 @@ import d6img from "../asset/icons8-thumb.gif"
                                  <div className="sticker">🏋️‍♂️</div>
                                  <div className="name_surname-parent">
                                  <div className="name">Pradum Yadav</div>    
-                                 <div className="date">Sep 18,2023 .15 min read </div>
+                                 <div className="date">Sep 18,2023  </div>
                                  </div>
                                  </div>
                     </div>
@@ -83,7 +83,7 @@ import d6img from "../asset/icons8-thumb.gif"
                                  <div className="sticker">🏋️‍♂️</div>
                                  <div className="name_surname-parent">
                                  <div className="name">Pradum Yadav</div>    
-                                 <div className="date">Sep 18,2023 .15 min read </div>
+                                 <div className="date">Sep 18,2023 </div>
                                  </div>
                                  </div>
                             
