@@ -757,7 +757,7 @@ width: 450px;
 
 /* media query for Tab view */
 
-@media screen and (min-width:581px) and (max-width:768px){
+@media screen and (min-width:581px) and (max-width:825px){
 
     nav{
         display: none;
