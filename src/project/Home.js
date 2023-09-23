@@ -36,10 +36,14 @@ export default function Home(){
             
             </div>
                 
-            {/* <div className="the_Latest"><h2>The Latest   <hr className="hr"/></h2></div> */}
+           
             
             {/* Section 2 */}
+
+            <h1 className="latest_For_Home">The Latest <hr className="hr"/></h1>
            <div className="home_flex">
+
+      
             {homedata_from_roomData.filter((item)=>{return(item.ID===30||item.ID===43||item.ID===77)})
             .map((item,index)=>{
                 return(
@@ -56,11 +60,13 @@ export default function Home(){
 
                </div> 
 
-              {/*   <h2 className="home_H2">Top Stories  <hr className="hr"/></h2> */}
-               
+              
+              
 
                <div className="home_flex2">
-                <div>
+            
+                <div className="home_Call_1">
+                <h1>Top Stories  <hr className="hr"/></h1>
                 {homedata_from_roomData.filter((item)=>{return(item.ID===4||item.ID===18||item.ID===45||item.ID===51||item.ID===59||item.ID===60||item.ID===81)})
             .map((item,index)=>{
                 return (
@@ -75,11 +81,12 @@ export default function Home(){
                 )
             })}
                 </div>
+                
 
                 <div className="home_last_time_div">
-                   
+                <h1>Top Post  <hr className="hr"/></h1>
                 <div className="latest_post">
-                {/* <h2 className="home_top_post">Top Post  <hr className="hr"/></h2> */}
+
             {homedata_from_roomData.filter((item)=>item.ID ===29).map((item,index)=>{
                 return(
                     <div key={index}>
@@ -93,6 +100,7 @@ export default function Home(){
             })}
            </div>
            <div >
+        
                 {homedata_from_roomData.filter((item)=>{return(item.ID===1||item.ID===16||item.ID===41||item.ID===84)})
             .map((item,index)=>{
                 return (

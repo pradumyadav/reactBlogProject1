@@ -77,7 +77,7 @@ import d6img from "../asset/icons8-thumb.gif"
                                <div className="dynamic_Subchild" key={index}>
                                  
                                    <div><img className="image_for_dynamic2"src= {item.dataImage} alt="Not Found"/> </div>  
-                                    <div className="title_for_dynamic2">{item.dataTitle.slice(0,100)}...</div>
+                                    <div className="title_for_dynamic2">{item.dataTitle.slice(0,40)}...</div>
                                  
                                     <div className="sticker_parent">
                                  <div className="sticker">🏋️‍♂️</div>
