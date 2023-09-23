@@ -46,8 +46,8 @@ export default function Home(){
                    <div className="home_body"key={index}>
                      <NavLink className="navlink" to={`/ContentDeatails/${item.ID}`}>
                      <div>  <img className="home_body_img"src={item.dataImage} alt="Not Found"/></div>
-                    <div className="home_Title ">{item.dataTitle.slice(0,50)}...</div>
-                        <div className="home_description">{item.description.slice(0,150)}.....</div>
+                    <div className="home_Title ">{item.dataTitle.slice(0,40)}...</div>
+                        <div className="home_description">{item.description.slice(0,90)}.....</div>
                      </NavLink>
                   
                    </div>
@@ -76,7 +76,7 @@ export default function Home(){
             })}
                 </div>
 
-                <div>
+                <div className="home_last_time_div">
                    
                 <div className="latest_post">
                 {/* <h2 className="home_top_post">Top Post  <hr className="hr"/></h2> */}
@@ -92,6 +92,7 @@ export default function Home(){
                 )
             })}
            </div>
+           <div >
                 {homedata_from_roomData.filter((item)=>{return(item.ID===1||item.ID===16||item.ID===41||item.ID===84)})
             .map((item,index)=>{
                 return (
@@ -105,6 +106,7 @@ export default function Home(){
                 </div>
                 )
             })}
+            </div>
             <div className="advertisement">
                 <div>
                 Advertisement

@@ -102,15 +102,11 @@ a{
     }
 
 .childcompo{
-
-   
     border-bottom: 2px solid #ababab;
     height: 175px;
-    width: 730px;
+    width: 630px;
     margin-top: 10px;
     position: relative;
-
-    
 }
 
 .titlediv{
@@ -121,8 +117,7 @@ a{
 }
 
 .p1{
-
-    width: 330px;
+    width: 300px;
     height: 30px;
     position: absolute;
     top: 40px;
@@ -794,50 +789,43 @@ width: 450px;
             text-align: center;
             border:2px solid black ;
             margin-top: 10px;
-            width:255px;
-            height: 500px;
+            width:320px;
+            height: 428px;
             position: absolute;
            
-        
-
     }
-    .left_Div{
-        border-bottom:2px solid  #ababab;
-        width: 255px;
-        height: 100px;
-       
-    }
+    
     .childcompo{
         overflow: hidden;
         border:2px solid orange;
         border-bottom: 2px solid #ababab;
-        height: 170px;
-        width: 290px;
+        height: 160px;
+        width: 320px;
         margin-top: 10px;
         position: relative;    
     }
     .titlediv{
         position: absolute;
         left: 170px;
-        width:120px;
+        width:130px;
         font-weight: 700;
     }
     
     .p1{
     
-        width: 100px;
+        width: 120px;
         height: 30px;
         position: absolute;
-        top: 50px;
+        top: 45px;
         left: 170px;
         text-align:start;
     }
     .right_description{
-        width: 120px;
+        width: 140px;
         font-size: 14px;
         font-weight: bold;
         position: relative;
-       left: 120px;
+       left: 140px;
        top: 50px;
     }
     .all_Left_Image{
@@ -852,12 +840,12 @@ width: 450px;
     }
     .call_1{
    
-        width: 300px;
+        width: 340px;
     }
 
     .call_2{
-            
-        width: 260px;
+            border: 4px solid goldenrod;
+        width: 330px;
     }
     .latest_post2{
    
@@ -872,7 +860,8 @@ width: 450px;
         height:70px
     }
     .right_image{
-        width:110px;
+        width:120px;
+        height: 70px;
         
     }
     .count{
@@ -880,28 +869,33 @@ width: 450px;
         color:  #ababab;
         font-size: 40px;
         top: -10px;
-        right: -15px;
+        right: -25px;
         margin-left: 5px;
     }
 
     /* media query for home.js */
     .home_flex2{
         border: 3px solid orange;
-      
         position: relative;
         margin-top: 150px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content:space-around;
     
     }
+    .home_last_time_div{
+        border: 3px solid black;
+    }
+    .left_Div{
+        border: 3px solid green;
+        border-bottom:2px solid  #ababab;
+        width: 320px;
+        height: 110px;
+       
+    }
     .home_img1{
-        
-        width:300px;
-        height:220px;
-        margin-right:0px;
-        margin-bottom:15px;
+        width:380px;
+        height:460px;
+        margin-right:15px;
         border-radius:20px
     }
     .home_img2{
@@ -917,11 +911,10 @@ width: 450px;
     }
 
     .home_Header{
-        border: 3px solid green;
+        border:3px solid black;
         display: flex;
-        flex-direction: column;
-        justify-content: center; 
-         align-items: center;
+        justify-content: center;
+        
         margin-top: 50px;
     }
     .home_Header2{
@@ -929,34 +922,42 @@ width: 450px;
         flex-direction: column;
     }
     .home_flex{
-         
+        border: 3px solid red;
         display: flex;
         align-items: center;
-        flex-direction: column;
-      
-       
+        justify-content:center;
         
     }
     .home_body{
         border: 2px solid black;
-        width: 350px;
+        width: 250px;
         margin-top: 100px;
-        text-align: center;
+        display: flex;
+        justify-content: center;
     }
     .home_body_img{
-        width:330px;
-        height:230px;
-        border-radius:15px ;
+        height: 240px;
+        width:230px;
+        border-radius:15px
     }
-    .home_Title {
-        width: 270px;
+    .home_Title{
+        border:2px solid black ;
         font-weight: bold;
         text-align: center;
+        width: 200px;
         margin-bottom: 20px;
     }
-    .home_description {
-        width: 270px;
+    .home_description{
+        border:2px solid black ;
+        width: 225px;
         text-align: center;
+    }
+    .homeone{
+        display: inline-block;
+        color:  #ababab;
+        font-size: 40px;
+        position:absolute;
+        right: 67px;
     }
 
     /* media query for dynamic Component */
@@ -967,7 +968,6 @@ width: 450px;
        
     }
 
-
     .dynamic_Related_Footer{
         display: flex;
         justify-content: space-evenly;
@@ -975,7 +975,6 @@ width: 450px;
         margin-top: 5%;
     }
     .sticker_parent{
-       
         display: flex;
         justify-content: center;
         align-items: center;
@@ -983,7 +982,6 @@ width: 450px;
     }
 
     .sticker{
-      
         position: relative;
         right: 100px;
         font-size: 50px;
@@ -993,17 +991,26 @@ width: 450px;
      }
 
      .name_surname-parent{
-        border:2px solid black ;
+        border:2px solid rgb(92, 138, 1) ;
         position: relative;
-       
+
         width: 150px;
        right: 100px;
        font-size: 15px;
        font-weight: 600;
     }
     .subparent_Of_dynamic1{
+      border: 3px solid olivedrab;
+     
       
         width: 496px;
+    }
+    .subparent_Of_dynamic2{
+        border:3px solid purple;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     
 
@@ -1043,7 +1050,7 @@ width: 450px;
             border-radius: 15px;
         }
         
-        .one{
+        /* .one{
             display: inline-block;
             color:  #ababab;
             font-size: 40px;
@@ -1051,7 +1058,7 @@ width: 450px;
             right: 26px;
             top: 2350px;
         
-        }
+        } */
 
 
 }
