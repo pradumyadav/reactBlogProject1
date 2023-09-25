@@ -1,22 +1,17 @@
 import { useContext } from "react"
 import { dataRoom } from "./Parentdata"
-import { Link, NavLink } from "react-router-dom"
+import {  NavLink } from "react-router-dom"
 import Footer from "./Footer"
+import Header from "./Header"
 
 
 export default function Home(){
     const [homedata_from_roomData] = useContext(dataRoom)
     return(
             <>
-            {/* <Navbar/> */}
-            <nav>
-                <Link to="/">Home</Link>
-                <Link to="/bollywood">Bollywood</Link>
-                <Link to="/hollywood">Hollywood</Link>
-                <Link to="/technology">Technology</Link>
-                <Link to="/fitness"> Fitness</Link>
-                <Link to="food"> Food</Link>
-            </nav>
+          
+            <Header/>
+
             <div>
             {homedata_from_roomData.filter((item)=>item.ID === 0 )
             .map((item,index)=>{

@@ -5,6 +5,7 @@ import {dataRoom} from "./Parentdata"
 import "./Apply.css"
 import {NavLink } from "react-router-dom"
 import Footer from "./Footer"
+import Header from "./Header"
 
 export default function Bollywood(){
 
@@ -12,14 +13,7 @@ export default function Bollywood(){
 
     return(
         <>
-         <nav>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/bollywood">Bollywood</NavLink>
-                <NavLink to="/hollywood">Hollywood</NavLink>
-                <NavLink to="/technology">Technology</NavLink>
-                <NavLink to="/fitness"> Fitness</NavLink>
-                <NavLink to="/food"> Food</NavLink>
-            </nav>
+            <Header/>
 
         <div className="bollywood_Parent">
             <div className="call_1">
@@ -52,7 +46,7 @@ export default function Bollywood(){
                     <div key={index}>
                         <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
                             <div><img src={item.dataImage} alt="Not Found" className="all_Top_Post_Images"/></div>
-                        <div className="latest_post2"> {item.dataTitle}...</div>
+                        <div className="latest_post2"> {item.dataTitle}...<h1 className="one">{index+1}</h1></div>
                         </NavLink>
                     </div>
                 )

@@ -50,12 +50,7 @@
     margin-top: 5px;
 }
 
-/* .imgdiv:hover{
-    background-color: darkgrey;
-    width:30px;
-    height: 30px;
-    border-radius: 50%;
-} */
+
 .Img2{
     width:39px;
     border-radius: 50%;
@@ -139,14 +134,14 @@
 }
 
 .footer_Child1{
-    border: 2px solid black;
+   
     width: 180px;
     height: 130px;
     display: flex;
     flex-wrap: wrap;
 }
 .footer_Child2{
-    border: 2px solid black;
+  
     width: 200px;
     height: 130px;
     display: flex;
@@ -156,7 +151,7 @@
 }
 
 .footer_Child3{
-    border: 2px solid black;
+
     width: 195px;
     height: 130px;
     display: flex;
@@ -166,7 +161,7 @@
 }
 
 .footer_Child4{
-    border: 2px solid black;
+ 
     width: 250px;
     height: 130px;
     font-size: 20px;

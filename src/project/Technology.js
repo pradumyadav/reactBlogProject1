@@ -3,23 +3,14 @@ import { useContext } from "react"
 import { dataRoom } from "./Parentdata"
 import {NavLink } from "react-router-dom"
 import Footer from "./Footer"
+import Header from "./Header"
 export default function Technology() {
 
     const [technology_From_dataRoom]= useContext(dataRoom)
 
     return(
         <>
-         <nav>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/bollywood">Bollywood</NavLink>
-                <NavLink to="/hollywood">Hollywood</NavLink>
-                <NavLink to="/technology">Technology</NavLink>
-                <NavLink to="/fitness"> Fitness</NavLink>
-                <NavLink to="/food"> Food</NavLink>
-            </nav>
-         
-       
-
+          <Header/>
 
         <div className="technology_Parent">
 

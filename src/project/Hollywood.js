@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom"
 
 import "./Apply.css"
 import Footer from "./Footer"
+import Header from "./Header"
 
 export default function Hollywood (){
     const [hollydata_from_dataRoom]=useContext(dataRoom)
@@ -12,14 +13,7 @@ export default function Hollywood (){
     return(
 
         <>
-         <nav>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/bollywood">Bollywood</NavLink>
-                <NavLink to="/hollywood">Hollywood</NavLink>
-                <NavLink to="/technology">Technology</NavLink>
-                <NavLink to="/fitness"> Fitness</NavLink>
-                <NavLink to="/food"> Food</NavLink>
-            </nav>
+           <Header/>
        
         <div className="hollywood_Parent">
             

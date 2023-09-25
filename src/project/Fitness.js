@@ -2,6 +2,7 @@ import { useContext } from "react"
 import { dataRoom } from "./Parentdata"
 import {NavLink } from "react-router-dom"
 import Footer from "./Footer"
+import Header from "./Header"
 
 
 export default function Fitness(){
@@ -9,14 +10,7 @@ export default function Fitness(){
 
     return(
         <>
-         <nav>
-                 <NavLink to="/">Home</NavLink>
-                <NavLink to="/bollywood">Bollywood</NavLink>
-                <NavLink to="/hollywood">Hollywood</NavLink>
-                <NavLink to="/technology">Technology</NavLink>
-                <NavLink to="/fitness"> Fitness</NavLink>
-                <NavLink to="/food"> Food</NavLink>
-            </nav>
+         <Header/>
          
         <div className="fitnessData">
             <div className="call_1">
