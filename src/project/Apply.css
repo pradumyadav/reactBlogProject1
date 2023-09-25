@@ -252,8 +252,6 @@ a{
     display: flex;
 }
 
-
-
 .navlink{
     text-decoration: none;
     color: black;
@@ -339,7 +337,6 @@ a{
     margin-top: 70px;
     display: flex;
     justify-content:space-around;
-
 }
 .home_top_post{
     position: absolute;

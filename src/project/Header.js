@@ -13,7 +13,7 @@ export default function Header(){
                 <span>3</span>
             </div>
 
-             <nav className={mymenu ?"open":""}>
+             <nav className={mymenu ?"":"open"}>
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/bollywood">Bollywood</NavLink>
                 <NavLink to="/hollywood">Hollywood</NavLink>
