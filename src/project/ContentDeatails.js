@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom"
+import { NavLink, useNavigate, useParams } from "react-router-dom"
 import { dataRoom } from "./Parentdata"
 import { useContext } from "react"
 
@@ -12,12 +12,12 @@ import d6img from "../asset/icons8-thumb.gif"
                 const back= useNavigate()
 
                 const ID=useParams().ID
-                console.log(ID)
+                
                
                 const [data_Fro_ContentDeatails]=useContext(dataRoom)
-                console.log(data_Fro_ContentDeatails)
+         
                 const cat_of_useconte = data_Fro_ContentDeatails[ID].Type ;
-                console.log(cat_of_useconte)
+               
                
             return(
 
@@ -71,14 +71,14 @@ import d6img from "../asset/icons8-thumb.gif"
                 <div className="dynamic_Related_Footer">
                 
                        
-                       {data_Fro_ContentDeatails.filter((item)=>item.Type===cat_of_useconte ).slice(0,3)
-                       .map((item,index)=>{
+                       {/* {data_Fro_ContentDeatails.filter((item)=>item.Type===cat_of_useconte ).slice(0,3) */}
+                       {data_Fro_ContentDeatails.filter((item)=>(item.Type===cat_of_useconte)&&(item.ID%16===1 || item.ID%17===2 ||item.ID%18===3)).map((item,index)=>{
                            return(
                                <div className="dynamic_Subchild" key={index}>
-                                 
+                                 <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
                                    <div><img className="image_for_dynamic2"src= {item.dataImage} alt="Not Found"/> </div>  
                                     <div className="title_for_dynamic2">{item.dataTitle.slice(0,40)}...</div>
-                                 
+                                    </NavLink>
                                     <div className="sticker_parent">
                                  <div className="sticker">🏋️‍♂️</div>
                                  <div className="name_surname-parent">

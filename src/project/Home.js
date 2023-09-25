@@ -87,7 +87,7 @@ export default function Home(){
                     <div key={index}>
                          <NavLink className="navlink" to={`/ContentDeatails/${item.ID}`}>
                          <div><img src={item.dataImage} alt="Not Found" style={{width:"330px",height:"210px"}}/></div>
-                        <div className="latest_post2"> {item.dataTitle.slice(0,70)}...<div className="homeone">{index+1}</div></div>
+                        <div className="latest_post2"> {item.dataTitle.slice(0,70)}...</div><span className="homeone">{index+1}</span>
                          </NavLink>
                        
                     </div>

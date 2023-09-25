@@ -16,7 +16,7 @@ export default function Technology() {
 
             <div className="call_1">
             <h1 className="top_h1">Technology <hr className="hr"/></h1>
-            {technology_From_dataRoom.filter((item)=>item.ID>=34 && item.ID<42).map((item,index)=>{
+            {technology_From_dataRoom.filter((item)=>item.ID>=34 && item.ID<41).map((item,index)=>{
                     return(
                         <div className="childcompo" key={index}>
                              <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
@@ -38,14 +38,14 @@ export default function Technology() {
                     <div key={index}>
                         <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
                         <div><img src={item.dataImage} alt="Not Found" className="all_Top_Post_Images"/></div>
-                        <div className="latest_post2"> {item.dataTitle}...</div>
+                        <div className="latest_post2"> {item.dataTitle}...</div><span className="one">{index+1}</span>
                         </NavLink>
                     </div>
                 )
             })}
            </div>
 
-            {technology_From_dataRoom.filter((item)=>item.ID>=42 && item.ID <=49).map((item,index)=>{
+            {technology_From_dataRoom.filter((item)=>item.ID>=42 && item.ID <=46).map((item,index)=>{
                     return(
                         <div className="left_Div"  key={index}>
               <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}><div  className="right_description">{item.description.slice(0,15)}...<h1 className="count">{index+2}</h1></div> 

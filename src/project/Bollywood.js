@@ -46,7 +46,7 @@ export default function Bollywood(){
                     <div key={index}>
                         <NavLink className="navlink"to={`/ContentDeatails/${item.ID}`}>
                             <div><img src={item.dataImage} alt="Not Found" className="all_Top_Post_Images"/></div>
-                        <div className="latest_post2"> {item.dataTitle}...<h1 className="one">{index+1}</h1></div>
+                        <div className="latest_post2"> {item.dataTitle}...</div><span className="one">{index+1}</span>
                         </NavLink>
                     </div>
                 )
